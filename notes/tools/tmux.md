@@ -35,3 +35,21 @@
 - 'prefix + ,' -> rename the current window
 
 ### Managing Sessions
+
+-- this is from outside of the tmux
+- get the tmux session list -> 'tmux list-sessions' -> simplified to 'tmux ls'
+- 'prefix + d' -> dispatch from a session
+- 'tmux attach' -> attach to the most recent session. -> simplified to 'tmux a'
+  - 'tmux attach -t session_name' {generally the session index} 'tmux a -t session_name'
+
+- to add a new session - from outside -> 'tmux new -s <name>'
+- new session from inside tmux -> 'prefix + :' -> 'new -s <name>'
+
+- 'tmux rename-session' -> rename the current sessions -> simplified to 'prefix + $'
+  - this renames the session from index
+
+- 'prefix + s' -> to get an interactive session switcher 
+- from here u can kill a session with selecting the session and pressing 'x'
+
+'prefix + s' is a much abstract version of 'prefix + w'
+
