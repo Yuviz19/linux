@@ -3,7 +3,7 @@
 - a bash script is a file with series of bash commands, executed by BASH (Bourne Again Shell)
 - eg.
 
-```Shell
+```bash
 name="void"
 echo "hello $name"
 ```
