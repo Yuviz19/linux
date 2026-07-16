@@ -35,6 +35,7 @@
   - dit -> delete inside HTML/XML tags <>
   - dip -> delete current paragraphs (separated by lines)
   - use a to delete the quotes or parenthesis too
+  - 'shift + d' -> delete from the current point to the end of the line
 
 - c (change)
   - this is used to delete the current word and change it (enter the insert mode)
@@ -61,8 +62,8 @@
 
 ## Horizontal Motions
 
-- \_ -> beginning of a line (where text starts)
-- $ -> start of the line
+- \ or \_ -> beginning of a line (where text starts)
+- $ -> end of the line
 - 0 -> start of the line
 
 - f+"character" -> goes forward to on the character (to repeat , {backward} and ; {forward})
@@ -77,6 +78,14 @@
 - o -> make a new line below and enter insert mode
 - shft-o -> make a new line above and enter insert mode
 
+### Difference b/w words and WORDS
+
+- small words -> character likes %, !, and others are treated as small words
+  - w will make us jump to them too
+
+- big words -> ends at white-spaces
+  - use 'shift - w' to traverse.
+
 ## Vertical Motions
 
 - gg -> start of the document
@@ -84,6 +93,8 @@
 
 - { -> move at the start of a paragraph (contigious text {line wise})
 - } -> move at the end of the paragraph
+
+- % - to jump between the starting and the ending parenthesis of a code block.
 
 - ctrl + d -> scrolls down half page
 - ctrl + u -> scrolls up half page

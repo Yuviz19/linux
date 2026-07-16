@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-name="void"
-system=$(uname)
-
-echo "hello $name"
-echo "Your System is $system"

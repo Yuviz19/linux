@@ -11,7 +11,7 @@
 
 - Where we are?
 
-### Basic file manipulation 
+## Basic file manipulation 
   - Bash always exists inside a directory
 - 'pwd' -> prints working directory
 - 'ls' -> list all files in the directory
@@ -35,7 +35,7 @@
 - 'mv' -> used to move a file/directory (Can be used to rename them)
   - don't change the name to an existing file name, it overwrites it and deletes the previous one
 
-#### GREP
+### GREP
 - 'grep' -> used to find the occurances/patterns from an input stream (the pattern shows the whole line where it lies)
   - 'grep pattern stream' -> this is case sensitive
   - 'grep 'pattern' stream' -> used for avoiding special characters
@@ -52,15 +52,14 @@
   - '>>' used to append
   - 'echo hello >> file.txt' - creates a file if doesn't exists
 
-#### PIPING
+### PIPING
 - this is the process of sending one command's output to another command's input
   - eg -> cat hello | grep hi
 
-#### PAGER
+### PAGER
 - a program that pages through the output
   - less (j,k - up,down)
     - / to search -> n for next and SHFT + N for previous
     - q to exit
 
   - more is the same as less
-
