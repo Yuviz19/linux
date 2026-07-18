@@ -13,9 +13,9 @@ fi
 ```
 - other checks are 
   - gt (for greater then)
-  - gte (greater than equal to)
+  - ge (greater than equal to)
   - lt (less than)
-  - lte (less than equal to)
+  - le (less than equal to)
 
 - to check if a file exits or not 
   - use "-f path/to/file"
